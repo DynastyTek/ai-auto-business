@@ -1,8 +1,36 @@
-Goal: After PayPal purchase, buyer lands on Payhip download page.
+# Payment Redirect Configuration
 
-Steps:
-1) In Payhip product → Marketing → After Purchase Redirect → set to: {{PAYHIP_PRODUCT_URL}}
-2) Ensure PayPal button URL uses business={{PAYPAL_MERCHANT_ID}} and item_name/amount set.
-3) Optional: add license key delivery.
+Goal: After PayPal purchase, buyer lands on success/cancel pages with download access.
 
-Status: {{PAYHIP_PRODUCT_URL currently TODO}}
+Current Implementation: PayPal Standard with HTML Button
+- Using PayPal's legacy button integration via hosted_button_id
+- Return URL: https://dynastytek.github.io/ai-auto-business/success.html
+- Cancel URL: https://dynastytek.github.io/ai-auto-business/cancel.html
+- Payment amount: $29.00 USD
+
+Steps to Activate:
+1) Replace YOUR_MERCHANT_ID in index.html with actual PayPal hosted button ID
+2) Set up hosted button in PayPal account with correct return URLs
+3) Test payment flow from index.html → PayPal → success.html
+
+PayPal REST API Status:
+- REST API integration NOT YET IMPLEMENTED
+- Current implementation uses PayPal Standard (hosted button)
+- REST API would require backend server for security (client secret)
+- Consider upgrading to REST API for more control over payment flow
+
+Placeholders to Update:
+- index.html: hosted_button_id=YOUR_MERCHANT_ID (line 56 and line 128)
+- Both CTA buttons need the same merchant ID updated
+
+Future Enhancement: PayPal REST API
+- Would enable programmatic payment creation and verification
+- Requires secure backend (cannot expose client secret in frontend)
+- Would allow for better order tracking and webhook notifications
+- Consider using Netlify Functions, Vercel Serverless, or similar
+
+Digital Delivery:
+- success.html includes direct download link to 7-day-social-launch-plan.pdf
+- File served directly from GitHub Pages
+- No authentication/verification on download (anyone with URL can access)
+- For production: consider adding download token or email-gated delivery
