@@ -20,7 +20,6 @@
   </style>
 </head>
 <body class="bg-slate-900 text-slate-100">
-
   <!-- Hero Section -->
   <section class="mx-auto max-w-6xl px-4 py-16">
     <div class="text-center">
@@ -33,14 +32,15 @@
         One-time payment. No subscriptions. Start converting today.
       </p>
       <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a 
-          href="https://payhip.com/b/your-product-id" 
+        <a
+          id="buy"
+          href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=7LFWX7NY4VNZ2&item_name=Small+Business+Marketing+Toolkit&amount=29.00&currency_code=USD&button_subtype=services&no_shipping=1&return=https://dynastytek.github.io/ai-auto-business/success.html&cancel_return=https://dynastytek.github.io/ai-auto-business/cancel.html"
           class="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition"
         >
           Get Started – $29
         </a>
-        <a 
-          href="#preview" 
+        <a
+          href="#preview"
           class="inline-block border border-slate-500 hover:border-slate-400 text-slate-300 hover:text-slate-100 font-semibold px-8 py-4 rounded-lg text-lg transition"
         >
           Preview PDF
@@ -51,7 +51,6 @@
       </p>
     </div>
   </section>
-
   <!-- Social Proof / Trust Bar -->
   <section class="border-y border-white/10 bg-white/5 py-8">
     <div class="mx-auto max-w-6xl px-4 text-center">
@@ -72,7 +71,6 @@
       </div>
     </div>
   </section>
-
   <!-- Benefits Section -->
   <section class="mx-auto max-w-6xl px-4 py-16">
     <h2 class="text-3xl font-bold text-center mb-12">Everything You Need to Start Selling</h2>
@@ -91,7 +89,6 @@
       </div>
     </div>
   </section>
-
   <!-- Bonus / Price Anchor -->
   <section class="mx-auto max-w-6xl px-4 pb-8">
     <div class="rounded-2xl border border-emerald-400/30 bg-emerald-400/10 p-6">
@@ -100,7 +97,6 @@
       <div class="mt-2 text-slate-400 text-sm">Anchor: $39 • Today: <span class="text-emerald-300 font-semibold">$29</span></div>
     </div>
   </section>
-
   <!-- FAQ (no-JS accordions) -->
   <section class="mx-auto max-w-6xl px-4 pb-16">
     <h3 class="text-2xl font-bold">FAQ</h3>
@@ -123,16 +119,13 @@
       </details>
     </div>
   </section>
-
   <footer class="border-t border-white/10">
     <div class="mx-auto max-w-6xl px-4 py-6 text-sm text-slate-400">
       © <span id="y"></span> Small Business Marketing Toolkit · Built for speed and credibility
     </div>
   </footer>
-
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
-
 </body>
 </html>
