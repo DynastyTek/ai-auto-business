@@ -1,0 +1,1 @@
+TODO: Upload 7-day-social-launch-plan.pdf as product "Small Business Marketing Toolkit" on Payhip. Set redirect to: {{PAYHIP_PRODUCT_URL}} once created.
