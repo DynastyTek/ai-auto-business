@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dynastytek.github.io/ai-auto-business/sitemap.xml
