@@ -1,0 +1,8 @@
+Goal: After PayPal purchase, buyer lands on Payhip download page.
+
+Steps:
+1) In Payhip product → Marketing → After Purchase Redirect → set to: {{PAYHIP_PRODUCT_URL}}
+2) Ensure PayPal button URL uses business={{PAYPAL_MERCHANT_ID}} and item_name/amount set.
+3) Optional: add license key delivery.
+
+Status: {{PAYHIP_PRODUCT_URL currently TODO}}
