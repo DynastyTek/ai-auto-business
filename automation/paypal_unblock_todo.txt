@@ -1,0 +1,28 @@
+PayPal Unblock Checklist
+========================
+
+1) Sign into PayPal Developer with the business account.
+   URL: https://developer.paypal.com/
+
+2) If prompted by MFA, complete authentication.
+   (This step may require a code from your authenticator app, SMS, or email)
+
+3) Access https://developer.paypal.com/dashboard/applications
+   This page allows you to create and manage REST API applications.
+
+4) Create a REST App named 'Small Business Marketing Toolkit'.
+   Steps:
+   - Click "Create App" button
+   - Enter App Name: Small Business Marketing Toolkit
+   - Select app type: Merchant
+   - Click "Create App"
+
+5) Save the REST API credentials and return here (masking secrets).
+   You will need to collect:
+   - LIVE: CLIENT_ID and SECRET
+   - SANDBOX: CLIENT_ID_SANDBOX and SECRET_SANDBOX
+   
+   Security note: Mask secrets after first 4 + last 4 characters when sharing.
+   Never commit these secrets to the repository.
+
+Once completed, return to this chat with the credentials and continue with the PayPal integration workflow.
