@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Order Confirmed</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+<h1>🎉 Thanks—your order is confirmed</h1>
+<p>Your download is available immediately. If you aren't redirected to Payhip, use the link below.</p>
+<p><a id="dl" href="#">Open my download</a></p>
+<script>
+  // If product url gets added later, this will be replaced at build time.
+  fetch('product.txt').then(r=>r.text()).then(t=>{
+    const url=(t.match(/PAYHIP_PRODUCT_URL=(.*)/)||[])[1]; if(url){ document.getElementById('dl').href=url; }
+  });
+</script>
+<a href="./">Back to site</a>
