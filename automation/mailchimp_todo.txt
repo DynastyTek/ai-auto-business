@@ -1,0 +1,1 @@
+TODO: Create post-purchase thank you automation using /automation/email_template.txt and audience placeholder (MAILCHIMP_AUDIENCE_ID).
