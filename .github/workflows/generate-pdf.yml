@@ -1,0 +1,24 @@
+name: Generate product PDF
+on:
+  workflow_dispatch:
+  push:
+    paths: [ "automation/generate_pdf.py" ]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --quiet reportlab
+      - run: python automation/generate_pdf.py
+      - name: Commit PDF
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add website/7-day-social-launch-plan.pdf
+          git commit -m "feat: generate product PDF via CI" || echo "No changes to commit"
+          git push
