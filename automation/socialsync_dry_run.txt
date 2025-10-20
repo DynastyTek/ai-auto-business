@@ -1,0 +1,87 @@
+SOCIALSYNC DRY RUN — Small Business Marketing Toolkit Launch
+
+Campaign: Small Business Marketing Toolkit Launch
+Site URL: https://DynastyTek.github.io/ai-auto-business/
+Schedule Configuration: 2 posts per day starting tomorrow (Tuesday, October 21, 2025)
+Duration: 5 days (10 posts total)
+
+---
+
+DAY 1: Tuesday, October 21, 2025
+
+Post 1 (9:00 AM EDT):
+Launch like a pro—without an agency. Meet the Small Business Marketing Toolkit. 🚀 https://DynastyTek.github.io/ai-auto-business/ #smallbusiness #marketing #nocode
+
+Post 2 (3:00 PM EDT):
+Your launch plan is now a checklist, not a headache. ✅ https://DynastyTek.github.io/ai-auto-business/ #entrepreneur #smb #growth
+
+---
+
+DAY 2: Wednesday, October 22, 2025
+
+Post 3 (9:00 AM EDT):
+Stop staring at a blank page. We wrote the captions for you. ✍️ https://DynastyTek.github.io/ai-auto-business/ #content #socialmedia #startup
+
+Post 4 (3:00 PM EDT):
+PayPal checkout ✔️ Instant delivery ✔️ Professional look ✔️ https://DynastyTek.github.io/ai-auto-business/ #buildinpublic #ecommerce #indiehackers
+
+---
+
+DAY 3: Thursday, October 23, 2025
+
+Post 5 (9:00 AM EDT):
+Day 3 of your launch: publish! Our one-page site ships in minutes. 🌐 https://DynastyTek.github.io/ai-auto-business/ #webdesign #shipit #nocode
+
+Post 6 (3:00 PM EDT):
+Proof sells. Use our testimonial prompts to capture trust fast. ⭐ https://DynastyTek.github.io/ai-auto-business/ #sales #marketingtips #branding
+
+---
+
+DAY 4: Friday, October 24, 2025
+
+Post 7 (9:00 AM EDT):
+Two posts/day, scheduled. You just reply to comments. 📅 https://DynastyTek.github.io/ai-auto-business/ #automation #socialselling #smb
+
+Post 8 (3:00 PM EDT):
+Convert browsers into buyers with a clean, focused page. 🧲 https://DynastyTek.github.io/ai-auto-business/ #ux #copywriting #conversion
+
+---
+
+DAY 5: Saturday, October 25, 2025
+
+Post 9 (9:00 AM EDT):
+Own your funnel: website → PayPal → Payhip delivery. 🔁 https://DynastyTek.github.io/ai-auto-business/ #stack #bootstrap #maker
+
+Post 10 (3:00 PM EDT):
+Ready when you are. Grab the Toolkit and launch this week. ⏱️ https://DynastyTek.github.io/ai-auto-business/ #productivity #smallbiz #marketing
+
+---
+
+NEXT STEPS (when SocialSync credentials are available):
+
+1. Log in to https://app.socialsync.example.com
+   - User: placeholder@example.com
+   - Pass: placeholder
+
+2. Create new campaign: "Small Business Marketing Toolkit Launch"
+
+3. Connect social accounts (Twitter, LinkedIn, Facebook, Instagram)
+
+4. Upload posts from automation/social_posts.json
+
+5. Configure schedule:
+   - Start date: Tomorrow (October 21, 2025)
+   - Frequency: 2 posts per day
+   - Time slots: 9:00 AM EDT and 3:00 PM EDT
+   - Total posts: 10
+   - Duration: 5 days
+
+6. Enable analytics tracking
+
+7. Set auto-reply for common questions (optional)
+
+8. Review and activate campaign
+
+---
+
+STATUS: DRY RUN — Credentials not available; schedule documented for manual execution
