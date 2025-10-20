@@ -10,6 +10,6 @@ Quick start:
 2) Publish the one-page website
 3) Schedule the 10 social posts
 
-Referral bonus: Share {{SITE_URL}} with a friend — reply "REFERRAL" for a coupon code.
+Referral bonus: Share https://dynastytek.github.io/ai-auto-business/ with a friend — reply "REFERRAL" for a coupon code.
 
 — Team Small Business Marketing Toolkit
