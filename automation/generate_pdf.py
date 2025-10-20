@@ -23,6 +23,7 @@ width, height = LETTER; y = height - 1*inch
 c.setFont("Helvetica-Bold", 18); c.drawString(1*inch, y, lines[0]); y -= 0.5*inch
 c.setFont("Helvetica", 11)
 for line in lines[1:]:
-    if y < 1*inch: c.showPage(); y = height - 1*inch; c.setFont("Helvetica", 11)
+    if y < 1*inch:
+        c.showPage(); y = height - 1*inch; c.setFont("Helvetica", 11)
     c.drawString(1*inch, y, line); y -= 0.25*inch
 c.save(); print("Wrote", out)
