@@ -1,8 +1,9 @@
-Goal: After PayPal purchase, buyer lands on Payhip download page.
-
+Goal: After PayPal purchase, buyer lands on success or cancel page.
 Steps:
-1) In Payhip product → Marketing → After Purchase Redirect → set to: {{PAYHIP_PRODUCT_URL}}
-2) Ensure PayPal button URL uses business={{PAYPAL_MERCHANT_ID}} and item_name/amount set.
-3) Optional: add license key delivery.
-
-Status: {{PAYHIP_PRODUCT_URL currently TODO}}
+1) PayPal Standard button redirects after payment using return/cancel URLs
+2) Success page at: https://dynastytek.github.io/ai-auto-business/success.html
+3) Cancel page at: https://dynastytek.github.io/ai-auto-business/cancel.html
+4) PayPal button uses business={{PAYPAL_MERCHANT_ID}} with proper return/cancel URLs
+Status: LIVE
+Return URL: https://dynastytek.github.io/ai-auto-business/success.html
+Cancel URL: https://dynastytek.github.io/ai-auto-business/cancel.html
