@@ -1,0 +1,15 @@
+Subject: You're in — here's your Toolkit 🎉
+
+Hi {{FNAME}},
+
+Thanks for your purchase! Your download is ready here:
+{{PAYHIP_PRODUCT_URL}}
+
+Quick start:
+1) Open the 7-Day Launch Plan PDF
+2) Publish the one-page website
+3) Schedule the 10 social posts
+
+Referral bonus: Share {{SITE_URL}} with a friend — reply "REFERRAL" for a coupon code.
+
+— Team Small Business Marketing Toolkit
