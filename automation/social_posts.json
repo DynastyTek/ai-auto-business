@@ -1,0 +1,17 @@
+{
+  "campaign": "Small Business Marketing Toolkit Launch",
+  "site": "{{SITE_URL}}",
+  "posts": [
+    {"text": "Launch like a pro—without an agency. Meet the Small Business Marketing Toolkit. 🚀 {{SITE_URL}} #smallbusiness #marketing #nocode"},
+    {"text": "Your launch plan is now a checklist, not a headache. ✅ {{SITE_URL}} #entrepreneur #smb #growth"},
+    {"text": "Stop staring at a blank page. We wrote the captions for you. ✍️ {{SITE_URL}} #content #socialmedia #startup"},
+    {"text": "PayPal checkout ✔️ Instant delivery ✔️ Professional look ✔️ {{SITE_URL}} #buildinpublic #ecommerce #indiehackers"},
+    {"text": "Day 3 of your launch: publish! Our one-page site ships in minutes. 🌐 {{SITE_URL}} #webdesign #shipit #nocode"},
+    {"text": "Proof sells. Use our testimonial prompts to capture trust fast. ⭐ {{SITE_URL}} #sales #marketingtips #branding"},
+    {"text": "Two posts/day, scheduled. You just reply to comments. 📅 {{SITE_URL}} #automation #socialselling #smb"},
+    {"text": "Convert browsers into buyers with a clean, focused page. 🧢 {{SITE_URL}} #ux #copywriting #conversion"},
+    {"text": "Own your funnel: website → PayPal → Payhip delivery. 🔁 {{SITE_URL}} #stack #bootstrap #maker"},
+    {"text": "Ready when you are. Grab the Toolkit and launch this week. ⏱️ {{SITE_URL}} #productivity #smallbiz #marketing"}
+  ],
+  "schedule": {"start": "tomorrow", "per_day": 2}
+}
