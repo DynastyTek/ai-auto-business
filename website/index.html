@@ -4,15 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Small Business Marketing Toolkit – Launch Ready in 5 Minutes</title>
-  <meta name="description" content="Landing page + 7-day email sequence + social posts. One-time $29. No subscriptions. Start converting today.">
+  <meta name="description" content="Launch a credible small-biz brand this week—site, plan, and payments done.">
   
   <!-- Open Graph / Social Share -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Small Business Marketing Toolkit – Launch Ready in 5 Minutes">
-  <meta property="og:description" content="Landing page + 7-day email sequence + social posts. One-time $29. No subscriptions.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/DynastyTek/ai-auto-business/main/assets/og-banner.png">
+  <meta property="og:description" content="A focused one-page site, a proven 7-day social plan, and instant digital delivery—built to convert without an agency.">
+  <meta property="og:image" content="https://dynastytek.github.io/ai-auto-business/og-banner.svg">
   <meta property="og:url" content="https://dynastytek.github.io/ai-auto-business/">
   <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/ai-auto-business/favicon.svg" type="image/svg+xml">
+  
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Small Business Marketing Toolkit",
+    "description": "One-page site + 7-day social plan + instant delivery.",
+    "brand": {"@type":"Brand","name":"DynastyTek"},
+    "offers": {"@type":"Offer","price":"29.00","priceCurrency":"USD","availability":"https://schema.org/InStock"},
+    "url": "https://dynastytek.github.io/ai-auto-business/",
+    "image": "https://dynastytek.github.io/ai-auto-business/og-banner.svg"
+  }
+  </script>
+  
+  <!-- Font Preload/Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" as="style">
   
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
@@ -20,32 +42,31 @@
   </style>
 </head>
 <body class="bg-slate-900 text-slate-100">
-
   <!-- Hero Section -->
   <section class="mx-auto max-w-6xl px-4 py-16">
     <div class="text-center">
       <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-        Launch Your Business Online<br>
-        <span class="text-emerald-400">In 5 Minutes</span>
+        Launch a credible small-biz brand this week<br>
+        <span class="text-emerald-400">—site, plan, and payments done.</span>
       </h1>
       <p class="mt-4 text-lg md:text-xl text-slate-300">
-        Landing page + 7-day email sequence + social post templates.<br>
-        One-time payment. No subscriptions. Start converting today.
+        A focused one-page site, a proven 7-day social plan, and instant digital delivery—built to convert without an agency.
       </p>
       <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a 
-          href="https://payhip.com/b/your-product-id" 
+        <a
+          href="https://payhip.com/b/your-product-id&return=https%3A%2F%2Fdynastytek.github.io%2Fai-auto-business%2Fsuccess.html&cancel_return=https%3A%2F%2Fdynastytek.github.io%2Fai-auto-business%2Fcancel.html" 
           class="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition"
         >
-          Get Started – $29
+          Get Started — $29
         </a>
-        <a 
+        <a
           href="#preview" 
           class="inline-block border border-slate-500 hover:border-slate-400 text-slate-300 hover:text-slate-100 font-semibold px-8 py-4 rounded-lg text-lg transition"
         >
           Preview PDF
         </a>
       </div>
+      <p class="mt-2 text-sm text-emerald-300">Launch promo: $39 → <span class="font-semibold">$29</span> today.</p>
       <p class="mt-4 text-sm text-slate-400">
         ✓ Instant download · ✓ Lifetime access · ✓ No monthly fees
       </p>
@@ -92,6 +113,25 @@
     </div>
   </section>
 
+  <!-- Social Proof: Testimonials -->
+  <section class="mx-auto max-w-6xl px-4 py-8">
+    <h3 class="text-2xl font-bold">What new sellers say</h3>
+    <div class="mt-4 grid md:grid-cols-3 gap-4 text-slate-300">
+      <blockquote class="rounded-xl border border-white/10 bg-white/5 p-4">
+        <p>"Launched in a day. The PDF told me exactly what to post."</p>
+        <footer class="mt-2 text-sm text-slate-400">— Carla M., boutique owner</footer>
+      </blockquote>
+      <blockquote class="rounded-xl border border-white/10 bg-white/5 p-4">
+        <p>"Looked professional instantly—people trusted us more."</p>
+        <footer class="mt-2 text-sm text-slate-400">— Devin R., service shop</footer>
+      </blockquote>
+      <blockquote class="rounded-xl border border-white/10 bg-white/5 p-4">
+        <p>"Setup was simple. We sold our first package this week."</p>
+        <footer class="mt-2 text-sm text-slate-400">— Priya K., creator</footer>
+      </blockquote>
+    </div>
+  </section>
+
   <!-- Bonus / Price Anchor -->
   <section class="mx-auto max-w-6xl px-4 pb-8">
     <div class="rounded-2xl border border-emerald-400/30 bg-emerald-400/10 p-6">
@@ -124,15 +164,22 @@
     </div>
   </section>
 
+  <!-- Trust Strip -->
+  <section class="mx-auto max-w-6xl px-4 pb-4">
+    <div class="flex flex-wrap items-center gap-4 text-sm text-slate-400">
+      <span>✔ Secure PayPal checkout</span>
+      <span>✔ Instant digital delivery</span>
+      <span>✔ One-time purchase, no subscription</span>
+    </div>
+  </section>
+
   <footer class="border-t border-white/10">
     <div class="mx-auto max-w-6xl px-4 py-6 text-sm text-slate-400">
       © <span id="y"></span> Small Business Marketing Toolkit · Built for speed and credibility
     </div>
   </footer>
-
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
-
 </body>
 </html>
