@@ -1,17 +1,14 @@
 {
-  "campaign": "Small Business Marketing Toolkit Launch",
-  "site": "https://dynastytek.github.io/ai-auto-business/",
   "posts": [
-    {"text": "Launch like a pro—without an agency. Meet the Small Business Marketing Toolkit. 🚀 https://dynastytek.github.io/ai-auto-business/ #smallbusiness #marketing #nocode"},
-    {"text": "Your launch plan is now a checklist, not a headache. ✅ https://dynastytek.github.io/ai-auto-business/ #entrepreneur #smb #growth"},
-    {"text": "Stop staring at a blank page. We wrote the captions for you. ✍️ https://dynastytek.github.io/ai-auto-business/ #content #socialmedia #startup"},
-    {"text": "PayPal checkout ✔️ Instant delivery ✔️ Professional look ✔️ https://dynastytek.github.io/ai-auto-business/ #buildinpublic #ecommerce #indiehackers"},
-    {"text": "Day 3 of your launch: publish! Our one-page site ships in minutes. 🌐 https://dynastytek.github.io/ai-auto-business/ #webdesign #shipit #nocode"},
-    {"text": "Proof sells. Use our testimonial prompts to capture trust fast. ⭐ https://dynastytek.github.io/ai-auto-business/ #sales #marketingtips #branding"},
-    {"text": "Two posts/day, scheduled. You just reply to comments. 📅 https://dynastytek.github.io/ai-auto-business/ #automation #socialselling #smb"},
-    {"text": "Convert browsers into buyers with a clean, focused page. 🧢 https://dynastytek.github.io/ai-auto-business/ #ux #copywriting #conversion"},
-    {"text": "Own your funnel: website → PayPal → Payhip delivery. 🔁 https://dynastytek.github.io/ai-auto-business/ #stack #bootstrap #maker"},
-    {"text": "Ready when you are. Grab the Toolkit and launch this week. ⏱️ https://dynastytek.github.io/ai-auto-business/ #productivity #smallbiz #marketing"}
-  ],
-  "schedule": {"start": "tomorrow", "per_day": 2}
+    {"text": "Launch fast beats waiting. Your one-page site + 7-day plan is live. Ship today → https://dynastytek.github.io/ai-auto-business/ #smallbusiness #marketing #nocode"},
+    {"text": "Clean site, clear CTA, instant delivery. That's the whole playbook → https://dynastytek.github.io/ai-auto-business/ #solopreneur #growth"},
+    {"text": "No agency, no drama. Publish, take payments, deliver instantly → https://dynastytek.github.io/ai-auto-business/ #bootstrap #indiehackers"},
+    {"text": "Price anchor $39. Launch promo **$29**. Get the Toolkit → https://dynastytek.github.io/ai-auto-business/ #conversion #sales"},
+    {"text": "The 7-day plan is the cheat code. Post daily with zero blank-page panic → https://dynastytek.github.io/ai-auto-business/ #content"},
+    {"text": "Trust is a visual. Modern design → credibility → clicks → https://dynastytek.github.io/ai-auto-business/ #ux #brand"},
+    {"text": "PayPal checkout. Instant delivery. One-time purchase → https://dynastytek.github.io/ai-auto-business/ #ecommerce"},
+    {"text": "Templates talk: hooks, captions, CTAs—no overthinking → https://dynastytek.github.io/ai-auto-business/ #socialmedia"},
+    {"text": "Your first sale starts with a real CTA. Get the Toolkit → https://dynastytek.github.io/ai-auto-business/ #onlinesales"},
+    {"text": "Launch now. Iterate later. Momentum compounds → https://dynastytek.github.io/ai-auto-business/ #buildinpublic"}
+  ]
 }
