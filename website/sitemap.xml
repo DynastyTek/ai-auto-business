@@ -10,10 +10,16 @@
     <loc>https://dynastytek.github.io/ai-auto-business/success.html</loc>
     <lastmod>2025-10-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dynastytek.github.io/ai-auto-business/cancel.html</loc>
+    <lastmod>2025-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dynastytek.github.io/7-day-social-launch-plan.pdf</loc>
     <lastmod>2025-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
