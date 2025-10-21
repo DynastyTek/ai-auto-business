@@ -1,9 +1,44 @@
-Goal: After PayPal purchase, buyer lands on success or cancel page.
-Steps:
-1) PayPal Standard button redirects after payment using return/cancel URLs
-2) Success page at: https://dynastytek.github.io/ai-auto-business/success.html
-3) Cancel page at: https://dynastytek.github.io/ai-auto-business/cancel.html
-4) PayPal button uses business={{PAYPAL_MERCHANT_ID}} with proper return/cancel URLs
-Status: LIVE
-Return URL: https://dynastytek.github.io/ai-auto-business/success.html
-Cancel URL: https://dynastytek.github.io/ai-auto-business/cancel.html
+# Payment Redirect Configuration
+
+Goal
+- After PayPal purchase, the buyer returns to a success page with download access (and can exit via a cancel page).
+
+Implementation (LIVE)
+- Integration: PayPal Standard (no backend required)
+- Method: HTML anchor to PayPal "Buy Now" with `cmd=_xclick` and `business=<Merchant ID>`
+- Merchant ID (Payer ID): 7LFWX7NY4VNZ2
+- Amount: $29.00 USD
+- Return URL (success): https://dynastytek.github.io/ai-auto-business/success.html
+- Cancel URL: https://dynastytek.github.io/ai-auto-business/cancel.html
+- Status: LIVE
+
+Live "Buy Now" URL (for verification)
+https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=7LFWX7NY4VNZ2&item_name=Small+Business+Marketing+Toolkit&amount=29.00&currency_code=USD&button_subtype=services&no_shipping=1&return=https://dynastytek.github.io/ai-auto-business/success.html&cancel_return=https://dynastytek.github.io/ai-auto-business/cancel.html
+
+Activation / Verification
+1) Ensure every CTA in website/index.html uses the exact URL above (the primary button has id="buy").
+2) Deploy via GitHub Pages workflow (main).
+3) Test flow:
+   - Home → "Buy Now — $29" opens PayPal checkout with correct item/price.
+   - Complete or cancel:
+     • Success → /success.html (shows "Open my download"; reads product.txt when Payhip URL is present)
+     • Cancel → /cancel.html
+
+Digital Delivery
+- Current: success.html links to the PDF (open access) and will auto-point to Payhip when PAYHIP_PRODUCT_URL is set in website/product.txt.
+- Production hardening options:
+  • Gate with Payhip/Storefront link
+  • Tokenized download URL
+  • Email-gated delivery
+
+PayPal REST API (Roadmap)
+- Not implemented (no secrets on the frontend).
+- Next steps if desired:
+  • Create REST app (Live + Sandbox) in PayPal Developer
+  • Use Smart Buttons (client-id) for approval, then capture via serverless function (Netlify/Vercel) or webhook
+  • Subscribe to PAYMENT.SALE.COMPLETED for receipts/automation
+- Benefits: better order tracking, server-side verification, extensible webhooks
+
+Notes
+- Keep return/cancel URLs in sync with index.html.
+- If merchant/account settings change, update the URL here and in index.html and redeploy.
