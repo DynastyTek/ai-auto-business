@@ -1,15 +1,23 @@
-Subject: You're in — here's your Toolkit 🎉
+Subject: Your Small Business Marketing Toolkit — download inside
 
 Hi {{FNAME}},
 
-Thanks for your purchase! Your download is ready here:
-{{PAYHIP_PRODUCT_URL}}
+You're in. Here's your Toolkit:
 
-Quick start:
-1) Open the 7-Day Launch Plan PDF
-2) Publish the one-page website
-3) Schedule the 10 social posts
+Download link:
+- https://dynastytek.github.io/ai-auto-business/success.html
+  (If it doesn't auto-open, click "Open my download.")
 
-Referral bonus: Share https://dynastytek.github.io/ai-auto-business/ with a friend — reply "REFERRAL" for a coupon code.
+What you got:
+- One-page conversion-ready site framework
+- 7-day social launch plan
+- Instant delivery via PayPal
 
-— Team Small Business Marketing Toolkit
+Pro tip:
+- Post daily for the next 7 days using the plan—momentum > perfection.
+
+Know a founder who needs this?
+Forward them this link: https://dynastytek.github.io/ai-auto-business/
+
+Thanks for supporting small business momentum,
+— DynastyTek
